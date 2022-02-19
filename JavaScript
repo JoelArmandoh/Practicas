@@ -1,0 +1,15 @@
+
+function ejecutarvueltas(){
+
+    
+    
+    numero= parseInt(document.getElementById("numero1").value);
+    
+    text="";
+    
+    for (i=0; i <= numero; i++) {
+    
+        document.getElementById("resultado").value+= i; 
+    }
+
+}
